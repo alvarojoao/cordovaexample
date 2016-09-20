@@ -1,11 +1,11 @@
 (function () {
 
-    angular.module('myApp.numbers')
-    .controller('NumberCtrl',  NumberController);
+    angular.module('myApp.dashboard')
+    .controller('DashboardCtrl',  DashboardController);
 
-    NumberController.$inject = ['numberGeneratorService'];
+    DashboardController.$inject = ['numberGeneratorService'];
 
-    function NumberController(numberGeneratorService) {
+    function DashboardController(numberGeneratorService) {
 
         vm = this;
 

@@ -1,5 +1,5 @@
 (function() {
-    angular.module( 'myApp.numbers', [
+    angular.module( 'myApp.dashboard', [
         'ui.router',
         'ui.bootstrap',
         'myApp.service.numberGenerator'
