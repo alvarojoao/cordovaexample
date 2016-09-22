@@ -2,7 +2,7 @@ exports.config = {
   allScriptsTimeout: 11000,
 
   specs: [
-    'app/**/*.scenario.js'
+    'www/**/*.scenario.js'
   ],
 
   capabilities: {

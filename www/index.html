@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head >
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title ng-bind="appCtrl.pageTitle"></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="lib/fontawesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/ionic.app.min.css">
+
+</head>
+<body ng-app="myApp">
+  <!-- <ul class="menu">
+    <li><a href="#/home">home</a></li>
+    <li><a href="#/number-generator">number generator</a></li> 
+  </ul>-->
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <!--<i class="ion-arrow-left-c"></i> 
+      The nav bar that will be updated as we navigate between views.
+    -->
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+        Back
+      </ion-nav-back-button>
+    </ion-nav-bar>
+    <!--
+      The views will be rendered in the <ion-nav-view> directive below
+      Templates are in the /templates folder (but you could also
+      have templates inline in this html file if you'd like).
+    -->
+  <ion-nav-view></ion-nav-view>
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <!-- WARNING: You will want to load all of your *.module.js files first since these
+  are where the definitions for the modules are.  Angular will barf if you reference them
+  before they are defined -->
+
+  <!-- ionic/angularjs js -->
+  <script type="text/javascript" src="lib/ionic/js/ionic.bundle.js"></script>
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+  <script type="text/javascript" src="lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+  <!-- Load Services First -->
+  <script type="text/javascript" src="js/modules/common/numberGenerator.module.js"></script>
+  <script type="text/javascript" src="js/modules/common/numberGenerator.service.js"></script>
+
+  <script type="text/javascript" src="js/modules/home/home.module.js"></script>
+  <script type="text/javascript" src="js/modules/home/home.controller.js"></script>
+
+  <script type="text/javascript" src="js/modules/dashboard/dashboard.module.js"></script>
+  <script type="text/javascript" src="js/modules/dashboard/dashboard.controller.js"></script>
+
+  <script type="text/javascript" src="js/app.module.js"></script>
+  <script type="text/javascript" src="js/app.route.js"></script>
+
+</body>
+</html>
