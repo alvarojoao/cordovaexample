@@ -28,3 +28,33 @@
   content: "";
   padding: 0;
 }
+  
+
+
+.chat-bubble.right {
+    background-color: #158ffe;
+    color: #fff;
+    float: right;
+}
+.chat-bubble {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    margin: 10px;
+    max-width: 100%;
+}
+.chat-bubble.right:before {
+    background-color: #158ffe;
+    bottom: 2px;
+    left: -6px;
+    -webkit-transform: rotate(25deg) skew(0deg);
+}
+.chat-bubble:before {
+    content: "\00a0";
+    display: block;
+    height: 29px;
+    width: 15px;
+    position: absolute;
+}
+
