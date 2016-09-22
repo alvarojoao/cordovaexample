@@ -27,6 +27,10 @@
       url: '/indicadores',
       templateUrl: 'modules/dashboard/templates/indicadores.html'
     })
+  .state('indicadores2', {
+      url: '/indicadores2',
+      templateUrl: 'modules/dashboard/templates/indicadores2.html'
+    })
   .state('agenteVirtual', {
       url: '/agente-virtual',
       templateUrl: 'modules/atendimento/templates/agente-virtual.html'
