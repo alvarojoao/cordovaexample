@@ -6,10 +6,12 @@ var sass = require('gulp-sass');
 var minifyCss = require('gulp-minify-css');
 var rename = require('gulp-rename');
 var sh = require('shelljs');
+var replace = require('replace');
 
 var paths = {
   sass: ['./scss/**/*.scss']
 };
+var replaceFiles = ['./www/js/modules/atendimento/atendimento.service.js'];
 
 gulp.task('default', ['sass']);
 
@@ -24,6 +26,26 @@ gulp.task('sass', function(done) {
     .pipe(rename({ extname: '.min.css' }))
     .pipe(gulp.dest('./www/css/'))
     .on('end', done);
+});
+
+gulp.task('add-proxy', function() {
+  return replace({
+    regex: "https://newaopoc.herokuapp.com/mobile",
+    replacement: "/api",
+    paths: replaceFiles,
+    recursive: false,
+    silent: false,
+  });
+});
+
+gulp.task('remove-proxy', function() {
+  return replace({
+    regex: "/api",
+    replacement: "https://newaopoc.herokuapp.com/mobile",
+    paths: replaceFiles,
+    recursive: false,
+    silent: false,
+  });
 });
 
 gulp.task('watch', function() {
