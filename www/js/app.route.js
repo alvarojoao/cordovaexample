@@ -33,7 +33,10 @@
     })
   .state('agenteVirtual', {
       url: '/agente-virtual',
-      templateUrl: 'js/modules/atendimento/templates/agente-virtual.html'
+      templateUrl: 'js/modules/atendimento/templates/agente-virtual.html',
+      controller: 'AtendimentoCtrl',
+      controllerAs: "AtendimentoCtrl"
+
     })
 
 

@@ -3,7 +3,8 @@
     	'ionic',
         'ui.router',
         'myApp.home',
-        'myApp.dashboard'
+        'myApp.dashboard',
+        'myApp.atendimento'
     ]).run(function($ionicPlatform) {
 		  $ionicPlatform.ready(function() {
 		    // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard

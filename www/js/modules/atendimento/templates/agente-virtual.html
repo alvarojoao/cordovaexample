@@ -14,16 +14,18 @@
 
 	  <div class="col col-50">
   		<div class="list">
-		    <div class="chat-bubble right">
+		    <div class="chat-bubble right col" style="
+					    min-height: 100px;
+					    padding: 20px;
+					">
 
-			  <div class="message ng-binding">Wow, this is really something huh? asudhausdhuahsd
-			  ajshdjasdajsdija sdiajsid jaisjijai sjdaijsd iajsid jaisj diajs id a
-			  sdasd asdasd asd 
+			  <div class="message ng-binding" >
+			  	<span ng-bind="AtendimentoCtrl.responseField"></span>
 			  </div>
 
 			  <div class="message-detail">
-			      <span class="bold ng-binding">Marty</span>, 
-			      <span >2 years ago</span>
+			      <!-- <span class="bold ng-binding"></span>,  -->
+			      <span ></span>
 			  </div>
 
 			</div>
@@ -39,10 +41,10 @@
 		    width: 100%;
 		">
 	    <label class="item-input-wrapper">
-	      <input type="text" placeholder="">
+	      <input type="text" ng-model="AtendimentoCtrl.messageField" placeholder="">
 	    </label>
-	    <button class="button button-small">
-	      <i class="icon ion-mic-a"></i>
+	    <button ng-click="AtendimentoCtrl.sendMessage()" class="button button-small">
+	      <i class="icon ion-ios-paperplane"></i>
 	    </button>
 	  </div>
 		 

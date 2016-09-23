@@ -3,13 +3,24 @@
     angular.module('myApp.atendimento')
     .controller('AtendimentoCtrl',  AtendimentoController);
 
-    AtendimentoController.$inject = ['numberGeneratorService'];
+    AtendimentoController.$inject = ['atendimentoWatson'];
 
-    function AtendimentoController(numberGeneratorService) {
+    function AtendimentoController(atendimentoWatson) {
 
-        vm = this;
-
+        var vm = this;
+        vm.messageField = '';
+        vm.responseField = 'Olá, como posso ajudar?';
         //API
+
+        vm.sendMessage = function(){
+        	atendimentoWatson.sendMessage(vm.messageField).then(function(res,req){
+        		console.log(res);
+        		vm.responseField=res.data;
+        	},function(error){
+        		console.log(error);
+        	});
+        	vm.messageField = '';
+        };
 
 
     };
