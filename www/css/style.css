@@ -1,5 +1,13 @@
 /* Empty. Add your own CSS if you like */
-
+@font-face {
+  font-family: 'Rajdhani';
+  src: url('../Fonts/Rajdhani-Regular.ttf');
+  src: url('../Fonts/Rajdhani-Regular.ttf') format('truetype'),
+        url('../Fonts/Rajdhani-Light.ttf') format('truetype'),
+        url('../Fonts/Rajdhani-Medium.ttf')format('truetype'),
+        url('../Fonts/Rajdhani-Bold.ttf') format('truetype'),
+        url('../Fonts/Rajdhani-SemiBold.ttf') format('truetype');
+}
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -30,7 +38,6 @@
 }
   
 
-
 .chat-bubble.right {
     background-color: #158ffe;
     color: #fff;
@@ -58,3 +65,53 @@
     position: absolute;
 }
 
+
+.login-background {
+  background: url(../img/Assets/BG_Login@mdpi.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+.menu-background {
+  background: url(../img/Assets/BG_Menu@mdpi.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.dashboard,.profile{
+  color:#39BFC9;
+  text-align: left;
+  font-family: "Rajdhani"!important;
+}
+
+.dashboard .box{
+  border:1px solid #39BFC9;
+  padding:10px;
+  margin:10px;
+}
+.dashboard label.title{
+  border-bottom: 1px   solid #39BFC9;
+  width: 100%;
+  font-weight: bold;
+}
+.dashboard .button-bar{
+  padding-top: 10px
+}
+.dashboard .box .button-bar .button {
+  border-right: 1px   solid #39BFC9;
+}
+.dashboard .box .button-bar .button:last-child  {
+  border-right: 0px   solid #39BFC9;
+}
+.dashboard .button-bar .transparent-color{
+  color:#39BFC9;
+}
+.transparent-color.button{
+  background-color: transparent;
+}
+.transparent-color{
+  background-color: transparent!important;
+}
+
+.profile .profile-header{
+  
+}

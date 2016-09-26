@@ -1,21 +1,32 @@
 <ion-view view-title="Login">
-  <ion-content>
-    <h1>Login</h1>
-    <div class="list">
-      <label class="item item-input">
-        <span class="input-label">Username</span>
-        <input type="text">
+  <ion-content class="login-background" style="    text-align: center;">
+      <img src="img/Assets/Logo_LiquidAO_Vector@mdpi.png">
+      <div class="list">
+      <label class="item item-input" style="opacity: 0.4">
+      <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" placeholder="Username">
       </label>
-      <label class="item item-input">
-        <span class="input-label">Password</span>
-        <input type="password">
+      <label class="item item-input" style="opacity: 0.4">
+      <i class="icon ion-search placeholder-icon"></i>
+        <input type="password" placeholder="Password">
       </label>
     </div>
-    <a nav-transition="none" ui-sref="dashboard">
-      <button class="button button-positive">
-        Entrar
+      <a nav-transition="none" ui-sref="dashboard">
+      <button class="button button-positive" style="width:100%; color:black; font-weight: bold;">
+        login
       </button>
     </a>
+    <div class="row">
+      <div class="col col-50">
+        <a href="">Forget Password </a>
+      </div>
+      <div class="col col-50">
+        <a href="">Create Account </a>
+      </div>
+    </div>
+
+    
+    
     <br/><br/> 
     
   </ion-content>

@@ -1,51 +1,56 @@
 <ion-view view-title="Dashboard">
-  <ion-content style="text-align: center">
-    <h1 style="text-align: left">Boa tarde!</h1>
-    <br/><br/><br/>
-  		<label>Support</label>
-		<div class="button-bar">
-		  <a ui-sref="agenteVirtual" class="button">
+	<ion-nav-buttons side="primary">
+      <button class="button" ui-sref="profile">
+		    <i class="icon ion-navicon-round"></i><br/>
+      </button>
+    </ion-nav-buttons>	
+  <ion-content class="menu-background dashboard"  >
+	<div class="box">
+  		<label class="title">Support</label>
+		<div class="button-bar transparent-color">
+		  <a ui-sref="agenteVirtual" class="button transparent-color">
 		    <i class="icon ion-person"></i><br/>
 		    <label>Chat</label>
 		  </a>
-		  <a ui-sref="agenteVirtual" class="button">
+		  <a ui-sref="agenteVirtual" class="button transparent-color">
 		    <i class="icon ion-ios-telephone"></i><br/>
 		    <label>Self-Service</label>
 		  </a>
-		  <a ui-sref="agenteVirtual" class="button">
+		  <a ui-sref="agenteVirtual" class="button transparent-color">
 		    <i class="icon ion-chatboxes"></i><br/>
 		    <label>Virtual Agent</label>
 		  </a>
-		</div>
-		<br/>
-		<label>Indicators</label>
-		<div class="button-bar">
-		  <a ui-sref="indicadores" class="button">
+  		</div>
+	</div>
+	<div class="box">
+		<label class="title">Indicators</label>
+		<div class="button-bar transparent-color">
+		  <a ui-sref="indicadores" class="button transparent-color" >
 		    <i class="icon ion-arrow-graph-up-right"></i><br/>
 		    <label>Business</label>
 		  </a>
-		  <a ui-sref="indicadores2" class="button">
+		  <a ui-sref="indicadores2" class="button transparent-color">
 		    <i class="icon ion-pie-graph"></i><br/>
 		    <label>Technology</label>
 		  </a>
 		</div>
-	  	<br/>
-	  	<label>Knowledge Base</label>
-		<div class="button-bar">
-		  <a href="" class="button">
+	</div>
+	<div class="box">
+	  	<label class="title">Knowledge Base</label>
+		<div class="button-bar transparent-color">
+		  <a href="" class="button transparent-color">
 		    <i class="icon ion-arrow-up-a"></i><br/>
 		    <label>Collaborate</label>
 		  </a>
-		  <a href="" class="button">
+		  <a href="" class="button transparent-color">
 		    <i class="icon ion-arrow-down-a"></i><br/>
 		    <label>Consult</label>
 		  </a>
-		  <a href="" class="button">
+		  <a href="" class="button transparent-color">
 		    <i class="icon ion-quote"></i><br/>
 		    <label>Statistic</label>
 		  </a>
 		</div>
-
 	</div>
   </ion-content>
 </ion-view>
