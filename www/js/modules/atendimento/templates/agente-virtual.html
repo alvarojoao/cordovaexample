@@ -36,19 +36,21 @@
 
   	
   </ion-content>
-  <ion-footer-bar align-title="center" class="bar">
-	  <div class="item item-input-inset " style="
-		    width: 100%;
-		">
-	    <label class="item-input-wrapper">
-	      <input type="text" ng-model="AtendimentoCtrl.messageField" placeholder="">
-	    </label>
-	    <button ng-click="AtendimentoCtrl.sendMessage()" class="button button-small">
-	      <i class="icon ion-ios-paperplane"></i>
-	    </button>
-	  </div>
-		 
-	</ion-footer-bar>
+	<form  ng-submit="AtendimentoCtrl.sendMessage();">
+		<ion-footer-bar align-title="center" class="bar">
+		  <div class="item item-input-inset " style="
+			    width: 100%;
+			">
+			    <label class="item-input-wrapper">
+			      <input type="text" ng-model="AtendimentoCtrl.messageField" placeholder="">
+			    </label>
+			    <button  type="submit" class="button button-small">
+			      <i class="icon ion-ios-paperplane"></i>
+			    </button>
+
+		  </div>
+		</ion-footer-bar>
+	</form>
 </ion-view>
 
 
