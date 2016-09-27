@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'iconewao';
-  src:  url('fonts/iconewao.eot?lipwr9');
-  src:  url('fonts/iconewao.eot?lipwr9#iefix') format('embedded-opentype'),
-    url('fonts/iconewao.ttf?lipwr9') format('truetype'),
-    url('fonts/iconewao.woff?lipwr9') format('woff'),
-    url('fonts/iconewao.svg?lipwr9#iconewao') format('svg');
+  src:  url('fonts/iconewao.eot?egojuc');
+  src:  url('fonts/iconewao.eot?egojuc#iefix') format('embedded-opentype'),
+    url('fonts/iconewao.ttf?egojuc') format('truetype'),
+    url('fonts/iconewao.woff?egojuc') format('woff'),
+    url('fonts/iconewao.svg?egojuc#iconewao') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'iconewao' !important;
   speak: none;

@@ -6,17 +6,17 @@
 	<rect style="fill:none;" width="96" height="80"/>
 	<g>
 		<g>
-			<path style="fill:none;stroke:#39BFC9;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+			<path style="fill:#39BFC9;fill-width:2.2;fill-linecap:round;fill-linejoin:round;fill-miterlimit:10;" d="
 				M60.718,27.973c1.598-0.676,3.355-1.05,5.199-1.05c7.377,0,13.357,5.98,13.357,13.357s-5.98,13.357-13.357,13.357
 				S52.56,47.657,52.56,40.28"/>
 			
-				<ellipse transform="matrix(0.0427 -0.9991 0.9991 0.0427 8.6839 41.1447)" style="fill:none;stroke:#39BFC9;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" cx="25.813" cy="16.041" rx="8.398" ry="8.398"/>
+				<ellipse transform="matrix(0.0427 -0.9991 0.9991 0.0427 8.6839 41.1447)" style="fill:#39BFC9;fill-width:2.2;fill-linecap:round;fill-linejoin:round;fill-miterlimit:10;" cx="25.813" cy="16.041" rx="8.398" ry="8.398"/>
 			
-				<circle style="fill:none;stroke:#39BFC9;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" cx="26.204" cy="62.892" r="8.398"/>
+				<circle style="fill:#39BFC9;fill-width:2.2;fill-linecap:round;fill-linejoin:round;fill-miterlimit:10;" cx="26.204" cy="62.892" r="8.398"/>
 			
-				<line style="fill:none;stroke:#39BFC9;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="65.234" y1="40.308" x2="33.433" y2="20.457"/>
+				<line style="fill:#39BFC9;fill-width:2.2;fill-linecap:round;fill-linejoin:round;fill-miterlimit:10;" x1="65.234" y1="40.308" x2="33.433" y2="20.457"/>
 			
-				<line style="fill:none;stroke:#39BFC9;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="53.946" y1="47.571" x2="34.276" y2="58.459"/>
+				<line style="fill:#39BFC9;fill-width:2.2;fill-linecap:round;fill-linejoin:round;fill-miterlimit:10;" x1="53.946" y1="47.571" x2="34.276" y2="58.459"/>
 		</g>
 	</g>
 </g>

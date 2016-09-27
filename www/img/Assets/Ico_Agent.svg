@@ -3,23 +3,23 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 98 98" style="enable-background:new 0 0 98 98;" xml:space="preserve">
 <g>
-	<circle style="fill:none;stroke:#7BCCD2;stroke-width:2;stroke-miterlimit:10;" cx="49" cy="49" r="48"/>
+	<circle style="fill:#7BCCD2;fill-width:2;fill-miterlimit:10;" cx="49" cy="49" r="48"/>
 	<g>
-		<path style="fill:none;stroke:#7BCCD2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+		<path style="fill:#7BCCD2;fill-width:2;fill-linecap:round;fill-linejoin:round;fill-miterlimit:10;" d="
 			M38.562,65.206l7.568,8.387L49,68.354l-8.014-6.968c0,0-0.926,2.521-1.56,3.12c-4.013,3.79-15.984,5.267-20.278,8.735
 			c-1.249,1.009-3.12,8.641-3.12,8.641"/>
-		<path style="fill:none;stroke:#7BCCD2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+		<path style="fill:#7BCCD2;fill-width:2;fill-linecap:round;fill-linejoin:round;fill-miterlimit:10;" d="
 			M59.438,65.206l-7.568,8.387L49,68.354l8.014-6.968c0,0,0.926,2.521,1.56,3.12c4.013,3.79,15.984,5.267,20.278,8.735
 			c1.249,1.009,4.172,7.615,4.172,7.615"/>
-		<polygon style="fill:none;stroke:#7BCCD2;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;" points="45.023,94.104 
+		<polygon style="fill:#7BCCD2;fill-width:2;fill-linejoin:round;fill-miterlimit:10;" points="45.023,94.104 
 			47.532,74.478 50.557,74.478 53.656,94.104 		"/>
-		<path style="fill:none;stroke:#7BCCD2;stroke-width:2;stroke-miterlimit:10;" d="M45.171,61.525c1.613,0.933,5.799,0.86,7.452,0
+		<path style="fill:#7BCCD2;fill-width:2;fill-miterlimit:10;" d="M45.171,61.525c1.613,0.933,5.799,0.86,7.452,0
 			c4.276-2.225,11.068-14.79,11.068-14.79c9.149-4.575,2.361-11.289,2.361-11.289s0.486-7.595,0.221-10.108
 			c-1.548-14.702-31.749-16.403-34.752-0.516c-0.5,2.646,0,10.772,0,10.772s-7.083,6.419,3.763,12.248
 			C35.284,47.842,40.976,59.099,45.171,61.525z"/>
-		<path style="fill:none;stroke:#7BCCD2;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" d="M35.358,41.054L35.21,28.88
+		<path style="fill:#7BCCD2;fill-width:2;fill-linecap:round;fill-miterlimit:10;" d="M35.358,41.054L35.21,28.88
 			c0,0,1.82-3.008,8.78-2.066c7.083,0.959,18.594,7.029,18.594,7.029l-0.812,7.212"/>
-		<line style="fill:none;stroke:#7BCCD2;stroke-width:2;stroke-miterlimit:10;" x1="49" y1="74.478" x2="49.34" y2="94.104"/>
+		<line style="fill:#7BCCD2;fill-width:2;fill-miterlimit:10;" x1="49" y1="74.478" x2="49.34" y2="94.104"/>
 	</g>
 </g>
 </svg>

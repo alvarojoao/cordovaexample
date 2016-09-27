@@ -5,16 +5,16 @@
 <g>
 	<rect style="fill:none;" width="80" height="80"/>
 	<g>
-		<path style="fill:none;stroke:#39BFC9;stroke-width:2;stroke-miterlimit:10;" d="M37.577,42.214h-19.68
+		<path style="fill:#39BFC9;fill-width:2;fill-miterlimit:10;" d="M37.577,42.214h-19.68
 			c-0.062,0-0.113-0.051-0.113-0.113V18.802c0-0.062,0.051-0.113,0.113-0.113h19.68c0.062,0,0.113,0.051,0.113,0.113v23.299
 			C37.69,42.164,37.639,42.214,37.577,42.214z"/>
-		<path style="fill:none;stroke:#39BFC9;stroke-width:2;stroke-miterlimit:10;" d="M62.103,61.311h-19.68
+		<path style="fill:#39BFC9;fill-width:2;fill-miterlimit:10;" d="M62.103,61.311h-19.68
 			c-0.062,0-0.113-0.051-0.113-0.113V37.899c0-0.062,0.051-0.113,0.113-0.113h19.68c0.062,0,0.113,0.051,0.113,0.113v23.299
 			C62.216,61.261,62.165,61.311,62.103,61.311z"/>
-		<path style="fill:none;stroke:#39BFC9;stroke-width:2;stroke-miterlimit:10;" d="M62.103,33.166h-19.68
+		<path style="fill:#39BFC9;fill-width:2;fill-miterlimit:10;" d="M62.103,33.166h-19.68
 			c-0.062,0-0.113-0.051-0.113-0.113V18.802c0-0.062,0.051-0.113,0.113-0.113h19.68c0.062,0,0.113,0.051,0.113,0.113v14.251
 			C62.216,33.115,62.165,33.166,62.103,33.166z"/>
-		<path style="fill:none;stroke:#39BFC9;stroke-width:2;stroke-miterlimit:10;" d="M37.577,61.311h-19.68
+		<path style="fill:#39BFC9;fill-width:2;fill-miterlimit:10;" d="M37.577,61.311h-19.68
 			c-0.062,0-0.113-0.051-0.113-0.113V46.947c0-0.062,0.051-0.113,0.113-0.113h19.68c0.062,0,0.113,0.051,0.113,0.113v14.251
 			C37.69,61.261,37.639,61.311,37.577,61.311z"/>
 	</g>

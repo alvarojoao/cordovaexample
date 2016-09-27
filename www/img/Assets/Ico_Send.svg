@@ -4,7 +4,7 @@
 	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
 <g>
 	
-		<polygon style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
+		<polygon style="fill:#FFFFFF;fill-width:2;fill-linecap:round;fill-linejoin:round;fill-miterlimit:10;" points="
 		10,10 54,32 10,54 32,32 	"/>
 	<rect style="fill:none;" width="64" height="64"/>
 </g>

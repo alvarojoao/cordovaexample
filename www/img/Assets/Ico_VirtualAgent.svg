@@ -4,7 +4,7 @@
 	 viewBox="0 0 96 80" style="enable-background:new 0 0 96 80;" xml:space="preserve">
 <g>
 	<rect style="fill:none;" width="96" height="80"/>
-	<path style="fill:none;stroke:#39BFC9;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+	<path style="fill:#39BFC9;fill-width:2;fill-linecap:round;fill-linejoin:round;fill-miterlimit:10;" d="
 		M55.612,52.087c-0.225-2.488-0.139-4.224-0.139-6.497c1.127-0.591,3.145-4.359,3.486-7.543c0.886-0.073,2.282-0.937,2.691-4.349
 		c0.221-1.832-0.656-2.863-1.19-3.187c1.441-4.335,4.435-17.745-5.537-19.131c-1.026-1.802-3.654-2.714-7.069-2.714
 		C34.192,8.918,32.544,18.984,35.539,30.512c-0.532,0.324-1.409,1.355-1.19,3.187c0.41,3.412,1.806,4.276,2.691,4.349
