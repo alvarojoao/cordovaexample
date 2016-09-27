@@ -9,7 +9,7 @@
   $stateProvider
   .state('home', {
     url: '/home',
-    templateUrl: 'js/modules/home/templates/home.html'
+    templateUrl: 'js/modules/authentication/templates/login.html'
   })
   .state('authenticate', {
       url: '/authenticate',
@@ -21,7 +21,9 @@
     })
   .state('dashboard', {
       url: '/dashboard',
-      templateUrl: 'js/modules/dashboard/templates/dashboard.html'
+      templateUrl: 'js/modules/dashboard/templates/dashboard.html',
+      controller: 'DashboardCtrl',
+      controllerAs: "DashboardCtrl"
     })
   .state('indicadores', {
       url: '/indicadores',
@@ -36,7 +38,10 @@
       templateUrl: 'js/modules/atendimento/templates/agente-virtual.html',
       controller: 'AtendimentoCtrl',
       controllerAs: "AtendimentoCtrl"
-
+    })
+  .state('selfservice', {
+      url: '/selfservice',
+      templateUrl: 'js/modules/atendimento/templates/selfservice.html',
     })
   .state('profile', {
       url: '/profile',

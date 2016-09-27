@@ -1,56 +1,63 @@
-<ion-view view-title="Dashboard">
+<ion-view  class="menu-background dashboard">
+	<div class="bar bar-header ">
+	  <img src="img/Assets/Image_Perfil.png" style="padding-right:10px" width="50px;" > <span style="color:white;font-size: 2em; margin:auto;" >Hello, Jonathan Lins</span>
+	</div>
 	<ion-nav-buttons side="primary">
-      <button class="button" ui-sref="profile">
-		    <i class="icon ion-navicon-round"></i><br/>
+      <button class="button transparent-color" ui-sref="profile" >
+		    <img style="width: 2.5em;" src="img/Assets/Ico_Menu.svg" alt="Kiwi standing on oval">
       </button>
     </ion-nav-buttons>	
-  <ion-content class="menu-background dashboard"  >
-	<div class="box">
-  		<label class="title">Support</label>
-		<div class="button-bar transparent-color">
-		  <a ui-sref="agenteVirtual" class="button transparent-color">
-		    <i class="icon ion-person"></i><br/>
-		    <label>Chat</label>
-		  </a>
-		  <a ui-sref="agenteVirtual" class="button transparent-color">
-		    <i class="icon ion-ios-telephone"></i><br/>
-		    <label>Self-Service</label>
-		  </a>
-		  <a ui-sref="agenteVirtual" class="button transparent-color">
-		    <i class="icon ion-chatboxes"></i><br/>
-		    <label>Virtual Agent</label>
-		  </a>
-  		</div>
-	</div>
-	<div class="box">
-		<label class="title">Indicators</label>
-		<div class="button-bar transparent-color">
-		  <a ui-sref="indicadores" class="button transparent-color" >
-		    <i class="icon ion-arrow-graph-up-right"></i><br/>
-		    <label>Business</label>
-		  </a>
-		  <a ui-sref="indicadores2" class="button transparent-color">
-		    <i class="icon ion-pie-graph"></i><br/>
-		    <label>Technology</label>
-		  </a>
+  <ion-content >
+  	<ion-scroll zooming="false" direction="xy" style="width: 100%; height: 500px">
+		<div class="box">
+	  		<label class="title">Support</label>
+			<div class="button-bar transparent-color">
+			  <a ui-sref="agenteVirtual" class="button transparent-color">
+			    <img style="display: block;    width: 4.5em;" src="img/Assets/Ico_Chat.svg" alt="Kiwi standing on oval">
+			    <label>Chat</label>
+			  </a>
+			  <a href="#" onclick="window.open('http://poc.looqbox.com/nta/', '_system', 'location=yes'); return false;" class="button transparent-color">
+			    <i class="icon-Ico_SelfService" ></i>
+			    <label>Self-Service</label>
+			  </a>
+			  <a ui-sref="agenteVirtual" class="button transparent-color">
+			    <img style="display: block;    width: 4.5em;" src="img/Assets/Ico_VirtualAgent.svg" alt="Kiwi standing on oval">
+			    <label>Virtual Agent</label>
+			  </a>
+	  		</div>
 		</div>
-	</div>
-	<div class="box">
-	  	<label class="title">Knowledge Base</label>
-		<div class="button-bar transparent-color">
-		  <a href="" class="button transparent-color">
-		    <i class="icon ion-arrow-up-a"></i><br/>
-		    <label>Collaborate</label>
-		  </a>
-		  <a href="" class="button transparent-color">
-		    <i class="icon ion-arrow-down-a"></i><br/>
-		    <label>Consult</label>
-		  </a>
-		  <a href="" class="button transparent-color">
-		    <i class="icon ion-quote"></i><br/>
-		    <label>Statistic</label>
-		  </a>
+		<div class="box">
+			<label class="title">Indicators</label>
+			<div class="button-bar transparent-color">
+			  <a ui-sref="indicadores" class="button transparent-color" >
+			    <i class="icon-Ico_Business"></i>
+			    <label>Business</label>
+			  </a>
+			  <a ui-sref="indicadores2" class="button transparent-color">
+			    <i class="icon-Ico_Technology"></i>
+			    <label>Technology</label>
+			  </a>
+			</div>
 		</div>
-	</div>
+		<div class="box">
+		  	<label class="title">Knowledge Base</label>
+			<div class="button-bar transparent-color">
+			  <a href="" class="button transparent-color">
+			    <!-- <i class="icon ion-arrow-up-a"></i> -->
+			    <img style="display: block;    width: 4.5em;" src="img/Assets/Ico_Collaborate.svg" alt="Kiwi standing on oval">
+			    <label>Collaborate</label>
+			  </a>
+			  <a href="" class="button transparent-color">
+			    <i class="icon-Ico_Consult"></i>
+			    <label>Consult</label>
+			  </a>
+			  <a href="" class="button transparent-color">
+			    <i class="icon-Ico_Statistics"></i>
+			    <label>Statistic</label>
+			  </a>
+			</div>
+		</div>
+	</ion-scroll>
+
   </ion-content>
 </ion-view>

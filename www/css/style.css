@@ -37,7 +37,25 @@
   padding: 0;
 }
   
-
+.bar.bar-light {
+  background-color: rgba(255,255,255,.66) !important; /* or transparent, or background:none */
+}
+.scroll-content {
+  overflow: visible !important;
+}
+.bar.bar-header h1 {
+color: black !important;
+}
+.scroll-content {
+overflow: visible !important;
+}    
+.bar.bar-header {
+     background: rgba(255,255,255,.10);
+border-bottom-width: 0;
+}
+.platform-ios.platform-cordova:not(.fullscreen) .has-header {
+ top:0px; 
+}
 .chat-bubble.right {
     background-color: #158ffe;
     color: #fff;
@@ -67,13 +85,13 @@
 
 
 .login-background {
-  background: url(../img/Assets/BG_Login@mdpi.png) no-repeat center;
-  background-size: cover;
+  background: url(../img/Assets/BG_Login.jpg) no-repeat center;
+  background-size: inherit;
   z-index: -1;
 }
 .menu-background {
-  background: url(../img/Assets/BG_Menu@mdpi.png) no-repeat center;
-  background-size: cover;
+  background: url(../img/Assets/BG_Home.jpg) no-repeat center;
+  background-size: inherit;
   z-index: -1;
 }
 
@@ -81,6 +99,18 @@
   color:#39BFC9;
   text-align: left;
   font-family: "Rajdhani"!important;
+}
+
+.dashboard i[class^="icon-"]{
+  font-size: 3.5em;
+  display: block;
+}
+.dashboard .button label{
+  font-size: 1em;
+}
+.dashboard .icon{
+  display: block;
+
 }
 
 .dashboard .box{

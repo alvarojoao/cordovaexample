@@ -1,0 +1,314 @@
+@font-face {
+  font-family: 'iconewao';
+  src:  url('fonts/iconewao.eot?lipwr9');
+  src:  url('fonts/iconewao.eot?lipwr9#iefix') format('embedded-opentype'),
+    url('fonts/iconewao.ttf?lipwr9') format('truetype'),
+    url('fonts/iconewao.woff?lipwr9') format('woff'),
+    url('fonts/iconewao.svg?lipwr9#iconewao') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconewao' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Ico_Agent:before {
+  content: "\e900";
+}
+.icon-Ico_Arrow:before {
+  content: "\e901";
+}
+.icon-Ico_Attach:before {
+  content: "\e902";
+}
+.icon-Ico_Business:before {
+  content: "\e903";
+}
+.icon-Ico_Chat:before {
+  content: "\e904";
+}
+.icon-Ico_Clock:before {
+  content: "\e905";
+}
+.icon-Ico_Clock_Green:before {
+  content: "\e906";
+}
+.icon-Ico_Close:before {
+  content: "\e907";
+}
+.icon-Ico_Collaborate:before {
+  content: "\e908";
+}
+.icon-Ico_Consult:before {
+  content: "\e909";
+}
+.icon-Ico_Dashboard:before {
+  content: "\e90a";
+}
+.icon-Ico_Delete:before {
+  content: "\e90b";
+}
+.icon-Ico_Exit:before {
+  content: "\e90c";
+}
+.icon-Ico_Indicators:before {
+  content: "\e90d";
+}
+.icon-Ico_Knowledge:before {
+  content: "\e90e";
+}
+.icon-Ico_Lock:before {
+  content: "\e90f";
+}
+.icon-Ico_Menu:before {
+  content: "\e910";
+}
+.icon-Ico_Michophone:before {
+  content: "\e911";
+}
+.icon-Ico_Request:before {
+  content: "\e912";
+}
+.icon-Ico_Search:before {
+  content: "\e913";
+}
+.icon-Ico_SelfService:before {
+  content: "\e914";
+}
+.icon-Ico_SelfSupport:before {
+  content: "\e915";
+}
+.icon-Ico_Send:before {
+  content: "\e916";
+}
+.icon-Ico_Statistics:before {
+  content: "\e917";
+}
+.icon-Ico_Support:before {
+  content: "\e918";
+}
+.icon-Ico_Technology:before {
+  content: "\e919";
+}
+.icon-Ico_User:before {
+  content: "\e91a";
+}
+.icon-Ico_VirtualAgent:before {
+  content: "\e91b";
+}
+.icon-Logo_Accenture_Black .path1:before {
+  content: "\e91c";
+  color: rgb(0, 0, 0);
+}
+.icon-Logo_Accenture_Black .path2:before {
+  content: "\e91d";
+  margin-left: -3.4970703125em;
+  color: rgb(0, 0, 0);
+}
+.icon-Logo_Accenture_Black .path3:before {
+  content: "\e91e";
+  margin-left: -3.4970703125em;
+  color: rgb(0, 0, 0);
+}
+.icon-Logo_Accenture_Black .path4:before {
+  content: "\e91f";
+  margin-left: -3.4970703125em;
+  color: rgb(0, 0, 0);
+}
+.icon-Logo_Accenture_Black .path5:before {
+  content: "\e920";
+  margin-left: -3.4970703125em;
+  color: rgb(0, 0, 0);
+}
+.icon-Logo_Accenture_Black .path6:before {
+  content: "\e921";
+  margin-left: -3.4970703125em;
+  color: rgb(0, 0, 0);
+}
+.icon-Logo_Accenture_Black .path7:before {
+  content: "\e922";
+  margin-left: -3.4970703125em;
+  color: rgb(0, 0, 0);
+}
+.icon-Logo_Accenture_Black .path8:before {
+  content: "\e923";
+  margin-left: -3.4970703125em;
+  color: rgb(0, 0, 0);
+}
+.icon-Logo_Accenture_Black .path9:before {
+  content: "\e924";
+  margin-left: -3.4970703125em;
+  color: rgb(0, 0, 0);
+}
+.icon-Logo_Accenture_Black .path10:before {
+  content: "\e925";
+  margin-left: -3.4970703125em;
+  color: rgb(255, 153, 0);
+}
+.icon-Logo_Accenture_White .path1:before {
+  content: "\e926";
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_Accenture_White .path2:before {
+  content: "\e927";
+  margin-left: -3.4970703125em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_Accenture_White .path3:before {
+  content: "\e928";
+  margin-left: -3.4970703125em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_Accenture_White .path4:before {
+  content: "\e929";
+  margin-left: -3.4970703125em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_Accenture_White .path5:before {
+  content: "\e92a";
+  margin-left: -3.4970703125em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_Accenture_White .path6:before {
+  content: "\e92b";
+  margin-left: -3.4970703125em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_Accenture_White .path7:before {
+  content: "\e92c";
+  margin-left: -3.4970703125em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_Accenture_White .path8:before {
+  content: "\e92d";
+  margin-left: -3.4970703125em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_Accenture_White .path9:before {
+  content: "\e92e";
+  margin-left: -3.4970703125em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_Accenture_White .path10:before {
+  content: "\e92f";
+  margin-left: -3.4970703125em;
+  color: rgb(255, 153, 0);
+}
+.icon-Logo_LiquidAO .path1:before {
+  content: "\e930";
+  color: rgb(0, 180, 227);
+}
+.icon-Logo_LiquidAO .path2:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(0, 180, 227);
+}
+.icon-Logo_LiquidAO .path3:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(0, 180, 227);
+}
+.icon-Logo_LiquidAO .path4:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(0, 180, 227);
+}
+.icon-Logo_LiquidAO .path5:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(0, 180, 227);
+}
+.icon-Logo_LiquidAO .path6:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(0, 180, 227);
+}
+.icon-Logo_LiquidAO .path7:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(0, 180, 227);
+}
+.icon-Logo_LiquidAO .path8:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(0, 180, 227);
+}
+.icon-Logo_LiquidAO .path9:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(0, 180, 227);
+}
+.icon-Logo_LiquidAO .path10:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(0, 180, 227);
+}
+.icon-Logo_LiquidAO .path11:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_LiquidAO .path12:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_LiquidAO .path13:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_LiquidAO .path14:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_LiquidAO .path15:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_LiquidAO .path16:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_LiquidAO .path17:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_LiquidAO .path18:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_LiquidAO .path19:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_LiquidAO .path20:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo_LiquidAO_Hor:before {
+  content: "\e944";
+}
+.icon-Logo_LiquidAO_Text:before {
+  content: "\e945";
+}
+
