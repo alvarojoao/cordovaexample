@@ -1,37 +1,56 @@
-<ion-view view-title="Profile"  class="profile menu-background" >
-	<ion-nav-buttons side="primary">
-      <button class="button transparent-color" ui-sref="dashboard">
-		    <i class="icon ion-close-round"></i><br/>
-      </button>
-    </ion-nav-buttons>	
+<ion-view view-title="" hide-nav-bar="true"  class="profile menu-background" >
   <ion-content >
-	<div class="profile-header list transparent-color" style="text-align: center; padding-top: 20px">
-    	<img src="img/Assets/Image_Perfil.png">
-	  <div class="item transparent-color">
-	    <h2>Pretty Hate Machine</h2>
-	    <p>Nine Inch Nails</p>
-	  </div>
-	</div>
-	<div class="list transparent-color">
-	  <a class="item item-icon-left transparent-color" href="#">
-	    <i class="icon ion-email"></i>
-	    Check mail
-	  </a>
-	  <a class="item item-icon-left transparent-color" href="#">
-	    <i class="icon ion-chatbubble-working"></i>
-	    Call Ma
-	  </a>
+  	<ion-scroll zooming="false" direction="xy" style="width: 100%; height: 100%;">
+		<div class="profile-header list transparent-color" style="text-align: center; padding-top: 0px">
+			<div style="text-align: right;"> 
+				<button class="button transparent-color" ui-sref="dashboard">
+		    			<img style="width: 2.5em; border:0px" src="img/Assets/Ico_Close.svg"  >
 
-	  <a class="item item-icon-left transparent-color" href="#">
-	    <i class="icon ion-mic-a"></i>
-	    Record album
-	  </a>
-	  <a class="item item-icon-left transparent-color" href="#">
-	    <i class="icon ion-person-stalker"></i>
-	    Friends
-	    <span class="badge badge-assertive">0</span>
-	  </a>
+				</button>
+			</div>
 
-	</div>
+		  <img src="img/Assets/Image_Perfil.png">
+		  <div class="item transparent-color">
+		    <h1>Jonathan Lins</h1>
+		    <p>jonathan.lins@accenture.com</p>
+		  </div>
+		</div>
+		<div class="list profile-menu transparent-color">
+		  <a class="item item-icon-left transparent-color" href="#">
+		    <i class="icon icon-Ico_Dashboard" ></i>
+		    <span>
+		    	
+		    DASHBOARD
+		    </span>
+		  </a>
+		  <a class="item item-icon-left transparent-color" href="#">
+		    <i class="icon icon-Ico_Request" ></i>
+
+		    REQUESTS
+		    <span class="badge badge-assertive only-board red">12</span>
+		  </a>
+
+		  <a class="item item-icon-left transparent-color" href="#">
+		    <i class="icon icon-Ico_Support"></i>
+		    SUPPORT
+		  </a>
+		  <a class="item item-icon-left transparent-color" href="#">
+		    <i class="icon icon-Ico_Knowledge"></i>
+		    KNOWLEDGE BASE
+		  </a>
+
+		  <a class="item item-icon-left transparent-color" href="#">
+		    <i class="icon icon-Ico_Indicators"></i>
+		    INDICATORS
+		  </a>
+
+
+		  <a class="item item-icon-left transparent-color" href="#">
+		    <i class="icon icon-Ico_Exit"></i>
+		    EXIT
+		  </a>
+		</div>
+	</ion-scroll>
+
   </ion-content>
 </ion-view>

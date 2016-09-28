@@ -37,6 +37,13 @@
   padding: 0;
 }
 
+.red{
+  color:red!important;
+}
+.white{
+  color:white!important;
+}
+
 .title.title-left.header-item{
   padding:2px 0px;
 }
@@ -49,7 +56,7 @@
   float: left;
   border: 1px solid white;
   border-radius: 1.3em;
-  width: 10%;
+  width: 37px;
 }
 
 .title.title-left.header-item span{
@@ -138,11 +145,17 @@ border-bottom-width: 0;
   border:1px solid #39BFC9;
   padding:10px;
   margin:10px;
+  background-color: rgba(0,0,0,0.4);
+  font-family: "Rajdhani"!important;
+
 }
 .dashboard label.title{
   border-bottom: 1px   solid #39BFC9;
   width: 100%;
   font-weight: bold;
+  color:#39BFC9;
+  font-size: 1.2em;
+
 }
 .dashboard .button-bar{
   padding-top: 10px
@@ -164,8 +177,73 @@ border-bottom-width: 0;
 }
 .title{
   color: white;
+  font-family: "Rajdhani"!important;
+
 }
 .back-button.buttons{
   background-color: transparent!important;
   color:white;
+}
+
+.profile{
+  font-family: "Rajdhani"!important;
+
+}
+
+.profile .profile-header{
+  background-color: rgba(0,0,0,0.4)!important;
+  border-top: 1px solid rgba(255,255,255,0.099)!important;
+
+}
+.profile-same-color--header{
+  background-color: rgba(0,0,0,0.2)!important;
+
+}
+.profile .profile-header img{
+
+  border: 1px solid white;
+  border-radius: 4.6em;
+}
+
+.profile .profile-header .item{
+  padding-top: 0;
+  border:0px;
+
+}
+
+.profile .list .item:last-child{
+  border:0px;
+}
+.profile .list.profile-menu {
+  margin:0 20px;
+}
+.profile .list.profile-menu .item .icon{
+  font-size: 3em!important;
+      left: 0px;
+}
+.profile .list.profile-menu .item {
+  font-weight: bold;
+}
+.profile .list.profile-menu .item{
+  border:0px;
+  border-bottom: 1px   solid #39BFC9;
+}
+
+.profile .item h1{
+  color:white!important;
+  font-family: "Rajdhani"!important;
+  padding: 0;
+  margin:auto;
+  font-size: 2em;
+
+}
+.only-board{
+  border: 1px solid red;
+  background-color: transparent!important; 
+}
+.profile .item p{
+  color:white!important;
+  font-family: "Rajdhani"!important;
+  opacity: 0.7;
+  font-size: 1.3em;
 }
