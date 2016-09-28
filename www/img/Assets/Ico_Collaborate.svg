@@ -14,9 +14,9 @@
 			
 				<circle style="fill:#39BFC9;fill-width:2.2;fill-linecap:round;fill-linejoin:round;fill-miterlimit:10;" cx="26.204" cy="62.892" r="8.398"/>
 			
-				<line style="fill:#39BFC9;fill-width:2.2;fill-linecap:round;fill-linejoin:round;fill-miterlimit:10;" x1="65.234" y1="40.308" x2="33.433" y2="20.457"/>
+				<line style="stroke:#39BFC9;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="65.234" y1="40.308" x2="33.433" y2="20.457"/>
 			
-				<line style="fill:#39BFC9;fill-width:2.2;fill-linecap:round;fill-linejoin:round;fill-miterlimit:10;" x1="53.946" y1="47.571" x2="34.276" y2="58.459"/>
+				<line style="stroke:#39BFC9;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="53.946" y1="47.571" x2="34.276" y2="58.459"/>
 		</g>
 	</g>
 </g>

@@ -3,14 +3,15 @@
     angular.module('myApp.atendimento')
     .controller('AtendimentoCtrl',  AtendimentoController);
 
-    AtendimentoController.$inject = ['atendimentoWatson'];
+    AtendimentoController.$inject = ['atendimentoWatson','$rootScope','$ionicNavBarDelegate'];
 
-    function AtendimentoController(atendimentoWatson) {
+    function AtendimentoController(atendimentoWatson,$rootScope,$ionicNavBarDelegate) {
 
         var vm = this;
         vm.messageField = '';
         vm.responseField = 'Olá, como posso ajudar?';
         //API
+        $ionicNavBarDelegate.showBackButton(true);
 
         vm.sendMessage = function(){
         	atendimentoWatson.sendMessage(vm.messageField).then(function(res,req){
@@ -22,7 +23,7 @@
         	vm.messageField = '';
         };
 
-
+        
     };
 
 })();

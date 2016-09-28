@@ -36,7 +36,28 @@
   content: "";
   padding: 0;
 }
-  
+
+.title.title-left.header-item{
+  padding:2px 0px;
+}
+.title.title-left.header-item div{
+  padding-top: 4px;
+}
+.title.title-left.header-item img{
+  margin: auto;
+  display: inline;
+  float: left;
+  border: 1px solid white;
+  border-radius: 1.3em;
+  width: 10%;
+}
+
+.title.title-left.header-item span{
+  padding-left: 14px;
+  float: left;
+  color: white;
+}
+
 .bar.bar-light {
   background-color: rgba(255,255,255,.66) !important; /* or transparent, or background:none */
 }
@@ -141,7 +162,10 @@ border-bottom-width: 0;
 .transparent-color{
   background-color: transparent!important;
 }
-
-.profile .profile-header{
-  
+.title{
+  color: white;
+}
+.back-button.buttons{
+  background-color: transparent!important;
+  color:white;
 }
