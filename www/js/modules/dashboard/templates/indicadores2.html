@@ -1,12 +1,40 @@
-<ion-view view-title="Indicadores">
+<ion-view view-title="Monitoring" class="menu-background">
+	<ion-nav-back-button hide-back-button="false">
+    </ion-nav-back-button>
+	<ion-nav-buttons side="primary">
+      <button class="button transparent-color" ui-sref="profile" >
+		    <img style="width: 2.5em;" src="img/Assets/Ico_Menu.svg" alt="menu">
+      </button>
+    </ion-nav-buttons>	
   <ion-content>
-    <h1>Boa tarde!</h1>
     <ion-scroll zooming="true" direction="xy" overflow-scroll="true" style="width: 100vw; height: 100vh" >
-	  	<iframe height="336" width="100%" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FCONSUMO_CPU_POR_TIPO_ACAO&oid=7eNqMeX3bGWk0h2KpOYdVfLUCQCSL1TycYvYwPwzzEYxZTZyuoiF4JRq3yGRKrvtETZvTUN0f4oHVh0SyYqqSn5FzNZrc%5EhJn0btJYwJt%5EuG4AJ7gbDhYwUaRq5_c2c1NTAm1XI2aN0YzOmUXfI6oD5NXo"></iframe>
-	  	<iframe height="336" width="100%" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FTIPOS_DE_ACAO&oid=_gnl9gWHeHakam4o5V7Ngdfonez19ONG%5EeFiQhRVjmF7IeKyl7quRF3quzW6gkP2oXbWTCkXX%5Evn_IytWZ6NlAhlBNSme_mPQr7Q08PupWhDDEM0Q7J8fp%5EYADsHPczNJ8bwJWWX"></iframe>
-	  	<iframe height="336" width="100%" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FTIPOS_ERROS&oid=L9%5Emn1itk2G_GfbPbDu5_zVj8mZcanossWBTN0rf3gaifMU3OuYG5Jds1Mtvho1sFDuJar8%5EKKhFkoSnz0KzGFHq9pfDmv5D68lYSztnYzbZSYnQ%5EI2g2dlCXmozz4LJRDYN"></iframe>
-	  	<iframe height="336" width="100%" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FSplunkd_KiloBytes_by_Group&oid=Bw2StFh4fQvTbuUTbbL5rLxEaDSjQFDiNUvHmkNq3dUTtZ9OB7SuDnS6N1_2wxvihhpSt8b1DP8WbDnPC9w8CYVguPcnwMItg4lCN%5EoLEWPv4X3clKJ1nd16ZuiOwhyDrJGockSpkMIcIriOjB8cy_r"></iframe>
-	  	<iframe height="336" width="100%" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FActivity_Level_By_Entity&oid=3Z3JsyW0pjG_TnL9Dtswy3IYQjaRK7JLxnVK%5E1lmq9xa9O0SrZ5c2UuBR9sLz5x30jHxKZDM_K7CH7d66iIq1OfwmFIqJSi7u5cGlN08o0BGd9FZJ4INeqIA9rDjU9VmVaA2QXz1R20q%5EfLfcYx"></iframe>
+    	<!-- Infra -->
+	  	<iframe height="336" width="480" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FSplunkd_KiloBytes_by_Group&oid=Bw2StFh4fQvTbuUTbbL5rLxEaDSjQFDiNUvHmkNq3dUTtZ9OB7SuDnS6N1_2wxvihhpSt8b1DP8WbDnPC9w8CYVguPcnwMItg4lCN%5EoLEWPv4X3clKJ1nd16ZuiOwhyDrJGockSpkMIcIriOjB8cy_r"></iframe>
+	  	<iframe height="336" width="480" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FActivity_Level_By_Entity&oid=bWpBZsC2msQzbEHEZ6f7LQyUHcPMDkOrUitssCBhJF7sGjTTCihukmGXc5HuR3QryoSTOT2gy96BdaoaxxYsoVYVtXaOoDFN68GwtTDXBxQBPNe7CVm2L4ITXW0r9JKAsA9jbFEwPV3ixS_kAWSatezlZv0"></iframe>
+	  	<iframe height="336" width="480" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FSplunkd_Activity_Level_by_Group&oid=%5EHlKvZAsx4YQ%5EhD71YZx5qJUHIh_ko85WHwRNdnLobAN5S7W8iDwdaEy9ugGNWgqiONgoRMuz5xQCJSrwfbNYxNqR6t0pX%5ExIQ6WCdCTgfcN9PsLR_yECm1q0TQnvQkofndPLvN6Wt0iKv1lDWYYE841K3%5EomcLh9F"></iframe>
+	  	<iframe height="336" width="480" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FSplunkd_Events_by_Processor&oid=Ho_eHhe3JfX5hfkLXS9LmXaGdCU04VNal2P81U4Rc05YUy3wegO3b%5ERLKCtfQIXbikvmS_pBJGh%5EHKXDrl1aGt6YHipvIEcVxZWPp63a_Z%5E1uY_MDh7UGlw1EUBLjdq_xZeG3lYZYiKGDMfq%5ECpHvjBUjdShQC"></iframe>
+
+
+	  	<!-- Aplicacao -->
+	  	<iframe height="336" width="480" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FCONSUMO_CPU_POR_TIPO_ACAO&oid=IK7aUzqpz890ovqnV8HTesZndqZ3rZIKG4OLMj5On4YDxCBCTo3E5orF2t9iiT7D3DK5eJXYDMvcpJhhlJgkHe2Afc928_cu1UXYxcuHNa3aEe_II_l8EEyXxUL_VEYg9T6u_HXsZwq89X_Kg13B7n7PsF"></iframe>
+	  	<iframe height="336" width="480" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FTIPOS_DE_ACAO&oid=_gnl9gWHeHakam4o5V7Ngdfonez19ONG%5EeFiQhRVjmF7IeKyl7quRF3quzW6gkP2oXbWTCkXX%5Evn_IytWZ6NlAhlBNSme_mPQr7Q08PupWhDDEM0Q7J8fp%5EYADsHPczNJ8bwJWWX"></iframe>
+	  	<iframe height="336" width="480" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FTIPOS_ERROS&oid=L9%5Emn1itk2G_GfbPbDu5_zVj8mZcanossWBTN0rf3gaifMU3OuYG5Jds1Mtvho1sFDuJar8%5EKKhFkoSnz0KzGFHq9pfDmv5D68lYSztnYzbZSYnQ%5EI2g2dlCXmozz4LJRDYN"></iframe>
+
+	  	<!-- Ticket -->
+
+	  	<iframe height="336" width="480" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FCriticidade_Ticket&oid=8wXl_8_2AoIyqeRE3VfDG%5EeMGtnLSnZl5mIO03znJGPaFUCP86cuMa9cra9jjyzYGO4ICfpWcS%5EtluiGTLNXnM2tN6xDkWm5s4r7VRSUTkqZ3WYSgFKK02oHTXAdXTy%5E8e8FNAIK18wCR8jX3F"></iframe>
+	  	<iframe height="636" width="480" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FSLA_TICKETS_DIAS_EXCETO_SEGUNDOS&oid=a6961mUiSxABF3MpH9%5EjnJTdrqP8ssmF7xshU3AvOpc%5EKKUcGwOejD8O5rp6zn%5EaFsLeDpH8h8iOwQN7oVAq5g%5EXTIDmatV7V%5EcQWfOtHwJUd_OMUf0FzM_1EfIsiGOzdG0JC1NBTZAPBmz9ZXfaj3C5ZzYOTX2NUpDuto"></iframe>
+	  	<iframe height="336" width="480" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FSLA_TICKETS_GRAF_DIAS_EXCETO_SEG&oid=TydKghmQtAR%5ENAgTXQyQe9mCQD4e8xY2hfCEPVTcWwBHkS8QT87ZLcAilzTTzY1jZ%5E0CFOSo7fnUxErlXtRyDA6lhZuMBJfDQxnE7tCsiZJWw0LQHVdMc85WxzD5OaJVpC97sGETEBorGquvlbVuolFn85Y6%5ENLeT5NMVtR"></iframe>
+	  	<!-- Ticket-qte -->
+
+	  	<iframe height="96" width="480" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FQuantidade_Status_Concluido&oid=bwuHT1DGaEXQQ_wJolD9a69zVXZf3wvvvspR9TML6LKC03mooHn3r97ZVH2osky%5EJR8oxaUWvqMODR2ptcidLT4%5EbOtnuUnnxmaIkegR0PPbjWQimwF9VpxmhsBP%5E4%5EuuVXo5lM5edMyn7EdtbODH9MH0LqsTMC"></iframe>
+	  	<iframe height="96" width="480" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FQTDE_STATUS_EM_ANDAMENTO&oid=H10HR_OhGtzPrCUhxEbYoK%5EDrin5xFjJE1HbMvLxU6zc2HXlodbVXLBFJ%5ER1TJodZZyFmE6AfdxnpTx9hAudPlXIav1IWeU2LVR9%5EkkoWMkKvxB6QKEW4e9TvUpAEZW4c9aUHKrNUDwGa_3lm1kdK_3"></iframe>
+	  	<iframe height="96" width="480" frameborder="0" src="http://ec2-52-43-114-241.us-west-2.compute.amazonaws.com:8000/en-US/embed?s=%2FservicesNS%2Fadmin%2Fsearch%2Fsaved%2Fsearches%2FQuantidade_Status_Pendente&oid=Jf_1BG6gEmZJ5dSwdApSpE2bSi1STFXkfY5RjPPCdsmp06u%5EVAVlZl64WF_%5E0_uXKp30grTCRERK4VxtZslVg0Ox9Nakhup7SuOC92l7flfkt2GxoKDhDrbg%5E%5EqjdTagm5eoTa7WRvN5hu9nxCXBeLckjHcX"></iframe>
+
+
+
+
+
   	</ion-scroll>
   </ion-content>
 </ion-view>

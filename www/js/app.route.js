@@ -12,10 +12,6 @@
     url: '/home',
     templateUrl: 'js/modules/authentication/templates/login.html'
   })
-  .state('authenticate', {
-      url: '/authenticate',
-      templateUrl: 'js/modules/authentication/templates/authenticate.html'
-    })
   .state('login', {
       url: '/login',
       templateUrl: 'js/modules/authentication/templates/login.html'
@@ -28,11 +24,17 @@
     })
   .state('indicadores', {
       url: '/indicadores',
-      templateUrl: 'js/modules/dashboard/templates/indicadores.html'
+      templateUrl: 'js/modules/dashboard/templates/indicadores.html',
+      
+      controller: 'IndicatorsCtrl',
+      controllerAs: "IndicatorsCtrl"
     })
   .state('indicadores2', {
       url: '/indicadores2',
-      templateUrl: 'js/modules/dashboard/templates/indicadores2.html'
+      templateUrl: 'js/modules/dashboard/templates/indicadores2.html',
+      
+      controller: 'IndicatorsCtrl',
+      controllerAs: "IndicatorsCtrl"
     })
   .state('agenteVirtual', {
       url: '/agente-virtual',

@@ -114,12 +114,12 @@ border-bottom-width: 0;
 
 .login-background {
   background: url(../img/Assets/BG_Login.jpg) no-repeat center;
-  background-size: inherit;
+  background-size: cover;
   z-index: -1;
 }
 .menu-background {
   background: url(../img/Assets/BG_Home.jpg) no-repeat center;
-  background-size: inherit;
+  background-size: cover;
   z-index: -1;
 }
 
