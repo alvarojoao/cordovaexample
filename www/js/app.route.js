@@ -22,17 +22,21 @@
       controller: 'DashboardCtrl',
       controllerAs: "DashboardCtrl"
     })
-  .state('indicadores', {
-      url: '/indicadores',
-      templateUrl: 'js/modules/dashboard/templates/indicadores.html',
-      
+  .state('indicadores-business', {
+      url: '/indicadores-business',
+      templateUrl: 'js/modules/dashboard/templates/indicadores-business.html',
       controller: 'IndicatorsCtrl',
       controllerAs: "IndicatorsCtrl"
     })
-  .state('indicadores2', {
-      url: '/indicadores2',
-      templateUrl: 'js/modules/dashboard/templates/indicadores2.html',
-      
+  .state('indicadores-technology', {
+      url: '/indicadores-technology',
+      templateUrl: 'js/modules/dashboard/templates/indicadores-technology.html',
+      controller: 'IndicatorsCtrl',
+      controllerAs: "IndicatorsCtrl"
+    })
+  .state('indicadores-maps', {
+      url: '/indicadores-maps',
+      templateUrl: 'js/modules/dashboard/templates/indicadores-maps.html',
       controller: 'IndicatorsCtrl',
       controllerAs: "IndicatorsCtrl"
     })
