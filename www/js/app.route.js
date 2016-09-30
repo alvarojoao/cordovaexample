@@ -3,6 +3,7 @@
         .config(['$stateProvider', '$urlRouterProvider','$ionicConfigProvider', function appConfig($stateProvider, $urlRouterProvider,$ionicConfigProvider) {
 
   $ionicConfigProvider.backButton.text('');
+  $ionicConfigProvider.backButton.previousTitleText(false);
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
   // Set up the various states which the app can be in.

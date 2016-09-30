@@ -12,7 +12,7 @@
         vm.responseField = 'Olá, como posso ajudar?';
         //API
         $ionicNavBarDelegate.showBackButton(true);
-
+        
         vm.sendMessage = function(){
         	atendimentoWatson.sendMessage(vm.messageField).then(function(res,req){
         		console.log(res);

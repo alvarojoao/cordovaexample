@@ -19,6 +19,7 @@
         );
         //API
      vm.init = function(){
+        $ionicNavBarDelegate.showBackButton(false);
 
      };
      vm.redirect = function(){
