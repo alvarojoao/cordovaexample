@@ -272,3 +272,15 @@ border-bottom-width: 0;
     border: 0 solid #fff!important;
     border-bottom-width: 2px!important;
 }
+
+.item.opened{
+  border:0!important;
+}
+
+.sub-list .item{
+  border:0!important;
+}
+
+.sub-list .item:last-child{
+  border-bottom: 1px solid #39BFC9!important;;
+}

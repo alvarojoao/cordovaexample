@@ -23,13 +23,21 @@
 		    DASHBOARD
 		    </span>
 		  </a>
-		  <a class="item item-icon-left transparent-color" href="#">
+		  <a class="item  item-icon-left transparent-color" ng-class="{'opened':open}" ng-init="open=false" ng-click="open=!open">
 		    <i class="icon icon-Ico_Request" ></i>
-
 		    REQUESTS
-		    <span class="badge badge-assertive only-board red">12</span>
+		    <span  ng-show="!open" class="badge badge-assertive only-board red">12</span>
 		  </a>
-
+			<div class="list sub-list" ng-show="open">
+				<a class="item transparent-color" href="#">
+					My requests
+					<span class="badge badge-assertive only-board red">6</span>
+				</a>
+				<a class="item transparent-color" href="#">
+					Backlog
+					<span class="badge badge-assertive only-board red">6</span>
+				</a>
+			</div>
 		  <a class="item item-icon-left transparent-color" href="#">
 		    <i class="icon icon-Ico_Support"></i>
 		    SUPPORT
