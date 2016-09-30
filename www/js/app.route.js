@@ -20,7 +20,7 @@
       url: '/dashboard',
       templateUrl: 'js/modules/dashboard/templates/dashboard.html',
       controller: 'DashboardCtrl',
-      controllerAs: "DashboardCtrl"
+      controllerAs: "DashboardCtrl",
     })
   .state('indicadores-business', {
       url: '/indicadores-business',

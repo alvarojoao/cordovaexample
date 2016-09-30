@@ -8,12 +8,23 @@
     function DashboardController(numberGeneratorService,$ionicNavBarDelegate,$rootScope) {
 
         vm = this;
-
+        $rootScope.$on('$stateChangeSuccess', 
+          function(event, toState, toParams, fromState, fromParams){
+            if (toState.name==='dashboard')
+                {
+                    $ionicNavBarDelegate.showBackButton(false);
+                    //Your function code or function call goes here 
+                }
+          }
+        );
         //API
-     $ionicNavBarDelegate.showBackButton(false);
+     vm.init = function(){
+
+     };
      vm.redirect = function(){
         window.open('http://poc.looqbox.com/nta/', '_system', 'location=yes');
     };
+    vm.init();
 
     };
 
